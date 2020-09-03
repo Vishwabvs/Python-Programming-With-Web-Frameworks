@@ -1,0 +1,2 @@
+1. Create another similar file for practicing all operations on Tuples as done with lists and submit it along with answers.
+2. Solve Activity Selection Problem using Greedy strategy. Store the start and finish time of activities as tuples. Print the activities in increasing order of their finish time. Print the selected activities and the optimum number of activities.

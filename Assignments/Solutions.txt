@@ -1,0 +1,23 @@
+Python Assessment Solutions:
+
+
+#code for first question
+matrix = [[2, 3, 5, 1, 8], [4, 1, 2, 6, 1], [6, 4, 5, 7, 9]]
+print('Given Matrix is: ')
+print(matrix)
+result = [[matrix[j][i] for j in range(len(matrix))] for i in range(len(matrix[0]))]
+print('Transposed Matrix is:')
+print(result)
+
+
+
+
+
+#code for second question
+string = input('Enter string: ')
+temp = list(string)
+temp2 = [(x,temp.count(x)) for x in string]
+res = {x:y for (x,y) in temp2}
+print(res)
+
+

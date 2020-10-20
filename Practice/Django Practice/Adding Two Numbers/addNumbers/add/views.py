@@ -6,8 +6,10 @@ def home(request):
 
 def add(request):
 
-    a = int(request.GET['num1'])
-    b = int(request.GET['num2'])
+    a = int(request.POST['num1'])
+    b = int(request.POST['num2'])
+
+    #If we want to use using GET method replace POST keyword with GET...
 
     res = a+b
 
